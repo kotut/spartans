@@ -1,16 +1,24 @@
 <html>
 <head> 
 	<title>Pay it Forward </title>
-	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="../css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-	<link href="../css/custom.css" rel="stylesheet" type="text/css">
+	<?php include("../include/header.php"); ?>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#my-navbar">
+	<?php include("../include/nav.php"); ?>
+
+  	<!-- jumbotron-->
+
+  	<div class="jumbotron">
+  		<div class="container text-center">
+  			<h1>Pay It Forwards</h1>
+
+  		</div><!-- End container -->
+  	</div>
+  	
+  	<!-- End jumbotron-->
 
 <div class="container">
-
-<h1>Pay It Forward</h1>
 
 <form method="POST" action="preview-advice.php">
 
