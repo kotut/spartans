@@ -9,7 +9,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 {
     $host = 'localhost';
     $username = 'root';
-    $pass = ' ';
+    $pass = 'Password Here';
+    
     $database = $username;
 
     $conn = new mysqli($host, $username, $pass, $database);
