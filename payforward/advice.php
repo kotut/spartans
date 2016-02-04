@@ -1,20 +1,6 @@
 <?php
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-echo "<h1>Pay it Forward Advices </h1>";
-
-    $host = 'localhost';
-    $username = 'root';
-    $pass = 'PASSWORD HERE';
-    $database = $username;
-
-    $conn = new mysqli($host, $username, $pass, $database);
-
-    if ($conn->connect_errno) {
-	    echo "Failed to connect to MySQL: (" . $conn->connect_errno . ") " . $conn->connect_error;
-	}
+include("../include/db.php"); 
 
 $query = "SELECT * FROM payforward ORDER BY uid DESC" ;
 
