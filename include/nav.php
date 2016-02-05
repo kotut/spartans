@@ -35,7 +35,7 @@
 				<li class="dropdown">
               <a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ADS <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Post AD</a></li>
+                  <li><a href="/CreateAds/view_ads.php">Post AD</a></li>
                 </ul>
             </li>
   				</ul>
