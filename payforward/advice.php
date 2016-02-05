@@ -11,7 +11,8 @@ error_reporting(E_ALL);
 <head> 
 	<title>Pay it Forward </title>
 	<?php include("../include/header.php"); ?>
-  <link href="votingfiles/voting.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="lib/qunit-1.11.0.css">
+  <link rel="stylesheet" href="lib/jquery.upvote.css">
 </head>
 
 <body data-spy="scroll" data-target="#my-navbar">
@@ -41,7 +42,12 @@ $row = mysqli_fetch_array($result);
 
 echo "<div class='container advice-list' id='adviceo'>";
     echo "<div class='col-md-1'>";
-      echo "<div class='vot_plus' id='vt_adviceo' ></div>";
+          echo "<div id='demo' style='overflow: auto'>";
+            echo "<div id='demo1' class='upvote'>";
+              echo "<a class='upvote'></a>";
+              echo "<span class='count'></span>";
+            echo "</div>";
+         echo "</div>";
     echo "</div>";
     
     echo "<div class='col-md-11'>";
@@ -55,7 +61,12 @@ while($row = mysqli_fetch_array($result)){
 
   echo "<div class='container advice-list' id='adviceo'>";
     echo "<div class='col-md-1'>";
-        echo "<div class='vot_plus' id='vt_adviceo' ></div>";
+          echo "<div id='demo' style='overflow: auto'>";
+            echo "<div id='demo1' class='upvote'>";
+              echo "<a class='upvote'></a>";
+              echo "<span class='count'></span>";
+            echo "</div>";
+         echo "</div>";
     echo "</div>";
     
     echo "<div class='col-md-11'>";
@@ -73,7 +84,11 @@ while($row = mysqli_fetch_array($result)){
 <div class="footer"></div>
 
 <!-- JAVASCRIPT -->
-<script src="votingfiles/voting.js" type="text/javascript"></script>
+    <script src="js/jquery-2.0.2.min.js"></script>
+    <script src="lib/jquery.upvote.js"></script>
+    <script src="lib/qunit-1.11.0.js"></script>
+    <script src="lib/vote.js"></script>
+
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>  
 </body>
