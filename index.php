@@ -8,6 +8,7 @@
     <style>
       .modal-open .modal,.btn:focus{
       outline:none!important;
+      .thumbnail{min-height:150px;}
       }
      </style>       
 </head>
@@ -90,19 +91,19 @@
     </div>
 	<div class="container images" style="marigin: auto;">
  <div class="row images" >
-  <div class="col-md-3" >
+  <div class="col-md-4" >
     <a href="image\handshake.jpg" class="thumbnail">
       <img src="image\handshake.jpg" alt="Event" >
 	  <span align =center> Meet and greet </span>
     </a>
   </div>
-  <div class="col-md-3" >
+  <div class="col-md-4" >
     <a href="image\handshake.jpg" class="thumbnail">
       <img src="image\handshake.jpg" alt="Handshake" >
 	  <span align =center> Meet and greet </span>
     </a>
   </div>
-  <div class="col-md-3" >
+  <div class="col-md-4" >
     <a href="image\handshake.jpg" class="thumbnail">
       <img src="image\handshake.jpg" alt="Ads" >
 	  	 <span align =center> Meet and greet </span>
@@ -113,13 +114,13 @@
 </div>
 	<div class="container images" style="marigin: auto;">
 	 <div class="row" align=center>
-  <div class="col-md-3">
+  <div class="col-md-4">
     <a href="image\handshake.jpg" class="thumbnail">
       <img src="image\handshake.jpg" alt="Event" >
 	  <span align =center> Meet and greet </span>
     </a>
   </div>
-  <div class="col-md-3">
+  <div class="col-md-4">
     <a href="image\handshake.jpg" class="thumbnail">
       <img src="image\handshake.jpg" alt="Handshake" >
 	  <span align =center> Meet and greet </span>
