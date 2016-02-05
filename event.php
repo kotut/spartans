@@ -10,7 +10,7 @@
 
 <body>
 
-<?php include("/include/nav.php"); ?>
+<?php include("include/nav.php"); ?>
 
 <div class="csswrap">
 	<div class="col-md-9">
