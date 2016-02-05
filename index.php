@@ -89,6 +89,14 @@
       
             </div>
     </div>
+
+    <div class="container">
+        <div class="row"> 
+            <h2>HANDSHAKE</h2>
+            <p><strong>Where nobody is a stranger.</strong></p>
+        </div>
+    </div>
+
 	<div class="container images" style="marigin: auto;">
  <div class="row images" >
   <div class="col-md-4" >
@@ -112,22 +120,7 @@
   
 </div>
 </div>
-	<div class="container images" style="marigin: auto;">
-	 <div class="row" align=center>
-  <div class="col-md-4">
-    <a href="image/handshake.jpg" class="thumbnail">
-      <img src="image/handshake.jpg" alt=" " >
-	  <h4 align =center> Meet and greet </h4>
-    </a>
-  </div>
-  <div class="col-md-4">
-    <a href="image/handshake.jpg" class="thumbnail">
-      <img src="image/handshake.jpg" alt=" " >
-	  <h4 align =center> Meet and greet </h4>
-    </a>
-  </div>
-  </div>
-</div>
+
 </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
