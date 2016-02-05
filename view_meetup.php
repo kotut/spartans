@@ -33,7 +33,7 @@ $id = $_GET['id'];
     $result = $stmt->get_result();
 
     if ($result->num_rows != 1) {
-    	header( 'Location: list_meetup.php?error=Meetup%20not%20found' ) ;
+    	header( 'Location: event.php?error=Meetup%20not%20found' ) ;
 		die();
     }
 

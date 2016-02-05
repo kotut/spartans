@@ -18,7 +18,7 @@
 
   				<ul class="nav navbar-nav">
   					<li class="dropdown">
-              <a href="http://<?php echo $_SERVER['SERVER_NAME']."/view_meetup.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meet &amp; Greet<span class="caret"></span></a>
+              <a href="http://<?php echo $_SERVER['SERVER_NAME']."/event.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meet &amp; Greet<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/event.php"?>">View all Meet &amp; Greet Events</a></li>
                   <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/create_meetup.php"?>">Create Event</a></li>
