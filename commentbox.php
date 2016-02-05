@@ -25,7 +25,7 @@
 
             .menu{
                 width: 620px;
-                margin: 20px auto; padding: 15px;      
+                margin-top: 60px; padding: 15px;      
                 list-style: none;
                 counter-reset: li;
                 background: #eee;
