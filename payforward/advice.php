@@ -64,7 +64,7 @@ while($row = mysqli_fetch_array($result)){
           echo "<div id='demo' style='overflow: auto'>";
             echo "<div id='demo1' class='upvote'>";
               echo "<a class='upvote'></a>";
-              echo "<span class='count'></span>";
+              echo "<span class='count'>".rand(1, 1000)."</span>";
             echo "</div>";
          echo "</div>";
     echo "</div>";
