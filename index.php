@@ -47,10 +47,9 @@
 
   				<ul class="nav navbar-nav">
   					<li><a href="#meet_up">MeetUp</a> 
-  					<li><a href="#pay_it_forward">Pay it Forward</a> 
-  					<li><a href="#university_socia">University Social</a> 
-  					<li><a href="#ask_questions">Ask Questions</a> 
-  					<li><a href="#ads">ADS</a> 
+  					<li><a href="https://www.spartanhandshake.xyz/payforward/advice.php">Pay it Forward</a> 
+  					<li><a href="https://www.spartanhandshake.xyz/payforward/comment.php">Ask Questions</a> 
+  					<li><a href="https://www.spartanhandshake.xyz/CreateAds/createads.php">Advertisements</a> 
   				</ul>
   			</div>
   		</div><!-- End Container-->
@@ -125,7 +124,7 @@
 
     <div class="container jumbotron" style="background-color:transparent;">
         <div class="row" style="text-align:center; color:white"> 
-            <h1>HANDSHAKE</h1>
+            <h1 style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">HANDSHAKE</h1>
             <p><strong>Where nobody is a stranger.</strong></p>
         </div>
     </div>
@@ -141,7 +140,7 @@
   <div class="col-md-4" >
     <a href="event.php" class="thumbnail">
       <img src="image/handshake.jpg" alt=" " >
-	  <h4 align =center> Handshake Meet-Up</h4>
+	  <h4 align =center> Meet and Greet</h4>
     </a>
   </div>
   <div class="col-md-4">
@@ -153,6 +152,21 @@
   
 </div>
 </div>
+
+  <div class="container images" style="marigin: auto;">
+ <div class="row images" >
+    <div class="col-md-4" ></div>
+      <div class="col-md-4" >
+        <a href="commentbox.php" class="thumbnail">
+          <img src="image/handshake.jpg" alt=" " >
+        <h4 align =center>Ask Questions</h4>
+        </a>
+      </div>
+    <div class="col-md-4"></div>
+  
+</div>
+</div>
+
 
 </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
