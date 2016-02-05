@@ -44,7 +44,7 @@
 		</div>
 
 		<div class="col-md-3"> 
-			<p> <label for "year"> Year: </label> <input type="number" min="1930" max="<?php echo date("Y"); ?>" name="year" value="" required /> </p>
+			<p> <label for "year"> Class of: </label> <input type="number" min="1930" max="2030" name="year" value="" required /> </p>
 		</div>
 		
 		<div class="col-md-3"> 
@@ -119,7 +119,7 @@
 				<span id="preview_name"></span>,  
 				<span id="preview_role"></span>, 
 				<span id="preview_affiliation"></span>,  
-				<span id="preview_year"></span> 
+				<strong><><span id="preview_year"></span> 
 			</p>
 
 			<p><strong>Tags: </strong>
