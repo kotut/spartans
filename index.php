@@ -121,7 +121,7 @@
             </div>
     </div>
 
-    <div class="container jumbotron">
+    <div class="container jumbotron" style="background-color:transparent;">
         <div class="row" style="text-align:center; color:white"> 
             <h1>HANDSHAKE</h1>
             <p><strong>Where nobody is a stranger.</strong></p>
