@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Basic Bootstrap Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php include("../include/header.php"); ?>
+    <?php include("/include/header.php"); ?>
 
 </head>
 
