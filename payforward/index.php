@@ -8,7 +8,7 @@
 
 <body data-spy="scroll" data-target="#my-navbar">
 
- <?php include("include/menu.php"); ?>
+ <?php include("../include/menu.php"); ?>
 
   	<!-- jumbotron-->
 
