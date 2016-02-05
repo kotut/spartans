@@ -10,6 +10,12 @@
 <link href="/css/style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
 <style>
+	#section {
+                
+                background-color:#eeeeee;
+                padding:5px;
+
+            }
     #panel {
                 width: 75%;
                 margin: 0px auto;
