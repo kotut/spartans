@@ -12,18 +12,18 @@
       .jumbotron h1 {font-size: 78px; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
       .jumbotron p { font-size: 32px; }
       }
-     </style>       
+     </style>
 </head>
 <body id="bootstrap-overrides">
-	
+
 <?php session_start(); ?>
 <?php if(!isset($_SESSION['user'])) : ?>
 	<div class="container" style="background-color:#eee;">
 
-			<div style="float:right;width:100px;"> 
+			<div style="float:right;width:100px;">
 				<a href="#LogModal" data-toggle="modal" class="btn" align=right> Login </a>
 			</div>
-			<div style="float:right;width:60px;"> 
+			<div style="float:right;width:60px;">
 				<a href="#RegModal" data-toggle="modal" class="btn" align= right> Register </a>
 			</div>
 
@@ -43,19 +43,19 @@
   				<a href="" class="navbar-brand">Handshake</a>
   			</div><!-- Navbar Header-->
   			<div class="collapse navbar-collapse" id="navbar-collapse">
-  				
+
 
   				<ul class="nav navbar-nav">
-  					<li><a href="#meet_up">MeetUp</a> 
-  					<li><a href="https://www.spartanhandshake.xyz/payforward/advice.php">Pay it Forward</a> 
-  					<li><a href="https://www.spartanhandshake.xyz/payforward/comment.php">Ask Questions</a> 
-  					<li><a href="https://www.spartanhandshake.xyz/CreateAds/createads.php">Advertisements</a> 
+  					<li><a href="#meet_up">MeetUp</a>
+  					<li><a href="https://www.spartanhandshake.xyz/payforward/advice.php">Pay it Forward</a>
+  					<li><a href="https://www.spartanhandshake.xyz/payforward/comment.php">Ask Questions</a>
+  					<li><a href="https://www.spartanhandshake.xyz/CreateAds/createads.php">Advertisements</a>
   				</ul>
   			</div>
   		</div><!-- End Container-->
   	</nav><!-- End navbar -->
 <?php endif; ?>
-	
+
    <div class="modal fade" id="RegModal" role="dialog">
       <div class="modal-dialog">
         <!-- Modal content-->
@@ -87,14 +87,14 @@
                 </div>
               </div>
             </form>
-          </div>            
+          </div>
         </div>
       </div>
     </div>
 
     <div class="modal fade" id="LogModal" role="dialog">
        <div class="modal-dialog">
-    
+
             <!-- Modal content-->
                 <div class="modal-content">
                     <div class="modal-header">
@@ -116,14 +116,14 @@
                             </div>
                         </form>
                     </div>
-                    
+
                 </div>
-      
+
             </div>
     </div>
 
     <div class="container jumbotron" style="background-color:transparent;">
-        <div class="row" style="text-align:center; color:white"> 
+        <div class="row" style="text-align:center; color:white">
             <h1 style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">HANDSHAKE</h1>
             <p><strong>Where nobody is a stranger.</strong></p>
         </div>
@@ -144,7 +144,7 @@
     </a>
   </div>
   <div class="col-md-3">
-    <a href="#" class="thumbnail">
+    <a href="/CreateAds/view_ads.php" class="thumbnail">
       <img src="image/handshake.jpg" alt=" " >
 	  	 <h4 align =center> Advertisements </h4>
     </a>
@@ -161,9 +161,9 @@
   <div class="container images" style="marigin: auto;">
  <div class="row images" >
     <div class="col-md-4" ></div>
-      
+
     <div class="col-md-4"></div>
-  
+
 </div>
 </div>
 
@@ -173,4 +173,3 @@
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
