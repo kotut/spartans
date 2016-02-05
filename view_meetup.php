@@ -81,7 +81,7 @@ $row = mysqli_fetch_array($result)
 
   	<div class="jumbotron">
   		<div class="container text-center">
-  			<h1><?php echo $row['eventname']; ?></h1>
+  			<h1>Meet &amp; Greet</h1>
 
   		</div><!-- End container -->
   	</div>
