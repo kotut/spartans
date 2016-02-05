@@ -60,7 +60,7 @@ while($row = mysqli_fetch_array($result)){
 <div class="footer"></div>
 
 <!-- JAVASCRIPT -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>  
 </body>
 </html>
