@@ -13,46 +13,36 @@
 
 <?php include("include/nav.php"); ?>
 
+<?php
+
+$query = "SELECT * FROM meetup ORDER BY id DESC" ;
+
+$result = mysqli_query($conn, $query);  ?>
+
+<?php while($row = mysqli_fetch_array($result)){ ?>
+
+  echo "<div class='container advice-list'>";
+    echo "<div class='row'><h4 class='advice-list'>" . $row['title'] . "</h4></div>";
+    echo "<div class='row'><p class='advice-list'>" . $row['advice'] . "</p></div>";
+    echo "<div class='row'><p class='advice-list'><strong>Posted By: </strong>" . $row['name'] . ", " . $row['role'] . ", " . $row['affiliation'] . ", Class of " . $row['year'] . "</p></div>";
+  echo "</div>";
+ }
+ echo "</div>";
+
+?>
+
 <div class="csswrap">
 	<div class="col-md-9">
 		<ul>
+      <?php while($row = mysqli_fetch_array($result)){ ?>
 			<li>
 				<a href="#">
-				<h2>Title #1</h2>
-				<p>Text Content #1</p>
+				<h2><?php echo $row['eventname']; ?></h2>
+				<p><?php echo $row['location']; ?>, <?php echo $row['space']; ?>, <?php echo $row['eventdescription']; ?>, <?php echo $row['startdate']; ?></p>
 				</a>
 			</li>
-			<li>
-			<a href="#">
-      <h2>Title #2</h2>
-      <p>Text Content #2</p>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <h2>Title #1</h2>
-      <p>Text Content #1</p>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <h2>Title #2</h2>
-      <p>Text Content #2</p>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <h2>Title #1</h2>
-      <p>Text Content #1</p>
-    </a>
-  </li>
-  <li>
-    <a href="#">
-      <h2>Title #2</h2>
-      <p>Text Content #2</p>
-    </a>
-  </li>
-</ul >
+      <?php } ?>
+  </ul >
 </div>
 </div>
 		<div class="col-md-3">
@@ -66,7 +56,7 @@
 		 <li> <a href=#> Selling shoes(used,size 9)Nike</a> <li>
 		 </ul>
 		</div>
-    
+
 
 </div>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
