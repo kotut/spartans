@@ -5,6 +5,7 @@
     <title>Basic Bootstrap Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php include("include/header.php"); ?>
+    <link href="/css/event.css" rel="stylesheet" type="text/css">
 
 </head>
 
