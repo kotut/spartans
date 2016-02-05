@@ -122,8 +122,8 @@
     </div>
 
     <div class="container">
-        <div class="row"> 
-            <h2>HANDSHAKE</h2>
+        <div class="row" style="text-align:center; color:white"> 
+            <h1>HANDSHAKE</h1>
             <p><strong>Where nobody is a stranger.</strong></p>
         </div>
     </div>
