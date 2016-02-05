@@ -44,6 +44,7 @@
                 margin: 25px 0 0 25px;
                 color: #fff;
             }
+            #comment-rss-feed{display:none;}
 </style>
 </head>
 
