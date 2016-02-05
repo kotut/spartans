@@ -1,3 +1,10 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+include("include/db.php");
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +24,8 @@
 
 $query = "SELECT * FROM meetup ORDER BY id DESC" ;
 
-$result = mysqli_query($conn, $query);  ?>
+$result = mysqli_query($conn, $query);
+?>
 
 
 <div class="csswrap">
@@ -27,7 +35,10 @@ $result = mysqli_query($conn, $query);  ?>
 			<li>
 				<a href="#">
 				<h2><?php echo $row['eventname']; ?></h2>
-				<p><?php echo $row['location']; ?>, <?php echo $row['space']; ?>, <?php echo $row['eventdescription']; ?>, <?php echo $row['startdate']; ?></p>
+				<p>Location: <?php echo $row['location']; ?><br>
+          Space Available: <?php echo $row['space']; ?><br>
+          Description: <?php echo $row['eventdescription']; ?><br>
+          Date/Time: <?php echo $row['startdate']; ?></p>
 				</a>
 			</li>
       <?php } ?>
