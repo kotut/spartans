@@ -13,7 +13,7 @@
 	#section {
                 
                 background-color:#eeeeee;
-                padding:5px;
+                padding:40px;
 
             }
     #panel {
