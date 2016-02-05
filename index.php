@@ -131,37 +131,37 @@
 
 	<div class="container images" style="marigin: auto;">
  <div class="row images" >
-  <div class="col-md-4" >
+  <div class="col-md-3" >
     <a href="/payforward/advice.php" class="thumbnail">
       <img src="image/handshake.jpg" alt=" " >
 	  <h4 align =center> Pay it Forward </h4>
     </a>
   </div>
-  <div class="col-md-4" >
+  <div class="col-md-3" >
     <a href="event.php" class="thumbnail">
       <img src="image/handshake.jpg" alt=" " >
 	  <h4 align =center> Meet and Greet</h4>
     </a>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
     <a href="#" class="thumbnail">
       <img src="image/handshake.jpg" alt=" " >
 	  	 <h4 align =center> Advertisements </h4>
     </a>
   </div>
-  
+  <div class="col-md-3" >
+        <a href="commentbox.php" class="thumbnail">
+          <img src="image/handshake.jpg" alt=" " >
+        <h4 align =center>Ask Questions</h4>
+        </a>
+      </div>
 </div>
 </div>
 
   <div class="container images" style="marigin: auto;">
  <div class="row images" >
     <div class="col-md-4" ></div>
-      <div class="col-md-4" >
-        <a href="commentbox.php" class="thumbnail">
-          <img src="image/handshake.jpg" alt=" " >
-        <h4 align =center>Ask Questions</h4>
-        </a>
-      </div>
+      
     <div class="col-md-4"></div>
   
 </div>
