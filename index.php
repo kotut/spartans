@@ -4,10 +4,7 @@
     <meta charset="utf-8">
     <title>Basic Bootstrap Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Optional Bootstrap theme -->
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <?php include("include/header.php"); ?>
     <style>
       .modal-open .modal,.btn:focus{
       outline:none!important;
