@@ -9,13 +9,6 @@ include("../include/db.php");
 
     $result = mysqli_query($conn, $query);
 ?>
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 

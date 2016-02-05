@@ -33,7 +33,7 @@ $result = mysqli_query($conn, $query);
 		<ul>
       <?php while($row = mysqli_fetch_array($result)){ ?>
 			<li>
-				<a href="#">
+				<a href="/view_meetup.php?id=<?php echo $row['id']; ?>">
 				<h2><?php echo $row['eventname']; ?></h2>
 				<p>Location: <?php echo $row['location']; ?><br>
           Space Available: <?php echo $row['space']; ?><br>
