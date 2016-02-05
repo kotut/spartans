@@ -16,15 +16,15 @@
 	
 <?php session_start(); ?>
 <?php if(!isset($_SESSION['user'])) : ?>
-	<div class="container">
-		<div class="jumbotron">
+	<div class="container" style="margin-left:-15px; background-color:#eee;">
+
 			<div style="float:right;width:100px;"> 
 				<a href="#LogModal" data-toggle="modal" class="btn" align=right> Login </a>
 			</div>
 			<div style="float:right;width:60px;"> 
 				<a href="#RegModal" data-toggle="modal" class="btn" align= right> Register </a>
 			</div>
-		</div>
+
 	</div>
 <?php else : ?>
 	<!-- Navbar -->
