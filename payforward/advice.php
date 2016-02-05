@@ -11,6 +11,7 @@ error_reporting(E_ALL);
 <head> 
 	<title>Pay it Forward </title>
 	<?php include("../include/header.php"); ?>
+  <link href="votingfiles/voting.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body data-spy="scroll" data-target="#my-navbar">
@@ -38,9 +39,10 @@ $result = mysqli_query($conn, $query);
 
 $row = mysqli_fetch_array($result);
 
-echo "<div class='container advice-list'>";
+echo "<div class='container advice-list' id='adviceo'>";
     echo "<div id='col-md-2'>";
-      echo "<div class='vot_plus' id='vt_a??' >";
+      echo "<div class='vot_plus' id='vt_adviceo' >";
+      
       echo "</div>";
     echo "</div>";
     
@@ -67,6 +69,7 @@ while($row = mysqli_fetch_array($result)){
 <div class="footer"></div>
 
 <!-- JAVASCRIPT -->
+<script src="votingfiles/voting.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>  
 </body>
