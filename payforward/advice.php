@@ -40,11 +40,11 @@ $result = mysqli_query($conn, $query);
 $row = mysqli_fetch_array($result);
 
 echo "<div class='container advice-list' id='adviceo'>";
-    echo "<div id='col-md-1'>";
+    echo "<div class='col-md-1'>";
       echo "<div class='vot_plus' id='vt_adviceo' ></div>";
     echo "</div>";
     
-    echo "<div id='col-md-11'>";
+    echo "<div class='col-md-11'>";
       echo "<div class='row'><h4 class='advice-list'>" . $row['title'] . "</h4></div>";
       echo "<div class='row'><p class='advice-list'>" . $row['advice'] . "</p></div>";
       echo "<div class='row'><p class='advice-list'><strong>Posted By: </strong>" . $row['name'] . ", " . $row['role'] . ", " . $row['affiliation'] . ", Class of " . $row['year'] . "</p></div>";
@@ -54,15 +54,15 @@ echo "</div>";
 while($row = mysqli_fetch_array($result)){
 
   echo "<div class='container advice-list' id='adviceo'>";
-    echo "<div id='col-md-1'>";
+    echo "<div class='col-md-1'>";
         echo "<div class='vot_plus' id='vt_adviceo' ></div>";
     echo "</div>";
     
-    echo "<div id='col-md-11'>";
-    echo "<div class='row'><h4 class='advice-list'>" . $row['title'] . "</h4></div>";
-    echo "<div class='row'><p class='advice-list'>" . $row['advice'] . "</p></div>";
-    echo "<div class='row'><p class='advice-list'><strong>Posted By: </strong>" . $row['name'] . ", " . $row['role'] . ", " . $row['affiliation'] . ", Class of " . $row['year'] . "</p></div>";
-  echo "</div>";
+    echo "<div class='col-md-11'>";
+      echo "<div class='row'><h4 class='advice-list'>" . $row['title'] . "</h4></div>";
+      echo "<div class='row'><p class='advice-list'>" . $row['advice'] . "</p></div>";
+      echo "<div class='row'><p class='advice-list'><strong>Posted By: </strong>" . $row['name'] . ", " . $row['role'] . ", " . $row['affiliation'] . ", Class of " . $row['year'] . "</p></div>";
+    echo "</div>";
   echo "</div>";
  }
  echo "</div>";
