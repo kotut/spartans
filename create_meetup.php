@@ -16,30 +16,30 @@
 <body data-spy="scroll" data-target="#my-navbar">
 
 	<?php include("include/nav.php"); ?>
-  
+
     	<!-- jumbotron-->
 
   	<div class="jumbotron">
   		<div class="container text-center">
-  			<h1>MEETUP </h1>
+  			<h1>Meet &amp; Greet</h1>
 
   		</div><!-- End container -->
   	</div>
-  	
+
   	<!-- End jumbotron-->
-  	
+
   	<!--
   	<div class="container text-left">
   			<div class="btn-group">
   				<a href="" class="btn btn-lg btn-warning">Create Event</a>
   			</div>
-  	
-  	
+
+
   	-->
-  
-  
-  
-  
+
+
+
+
   <!-- Contact -->
 
 
@@ -48,9 +48,9 @@
       <div class="page-header" id="contact">
           <h2>Create Event</h2>
       </div><!-- End Page Header -->
-      
-      
-          
+
+
+
       <div class="col-lg-8">
 		<form action="meetup_con.php" method='post' class="form-horizontal">
 		  <div class="form-group">
@@ -79,37 +79,37 @@
 			  <input type="text" class="form-control" id="location" name="location" placeholder="Location">
 			</div>
 		  </div><!-- End form group -->
-		  
-		  
-		  
 
 
-		  
-		  
 
-		  
-		  
-		  
-		  
-		  
 
-		  
-		  
-		  
-		  
-		  
 
-		  
-		  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		  <div class="form-group">
 			<label for="event_name" class="col-lg-2 control-label">Spaces</label>
 			<div class="col-lg-10">
 			  <input name="space" type="text" class="form-control" id="space" id="name" placeholder="Available Spaces">
 			</div>
-		  </div><!-- End form group --> 
-		  
-		  
-		  
+		  </div><!-- End form group -->
+
+
+
 		  <div class="form-group">
 			<label for="event_name" class="col-lg-2 control-label">Availability</label>
 		<select>
@@ -117,20 +117,20 @@
              <option value="Pm">Public</option>
 			</select>
 		  </div><!-- End form group -->
-		  
+
 
 
 		  <div class="form-group">
 			<label for="event_description" class="col-lg-2 control-label">Description</label>
 			<div class="col-lg-10">
-			  <textarea id="eventdescription" name="eventdescription" class="form-control" 
+			  <textarea id="eventdescription" name="eventdescription" class="form-control"
 			  cols="20" rows="10" placeholder="Enter your Description..."></textarea>
 			</div>
 		  </div><!-- End form group -->
 
 
 
-		
+
 
 
 
@@ -139,9 +139,9 @@
 		  <button type="submit" class="btn btn-success btn-lg">Submit</button>
 		</div>
 	  </div>
-		  
-		  
-		  
+
+
+
 
 		</form>
 	  </div>
@@ -154,7 +154,7 @@
 
 
 
-  
+
 
 <!-- Footer -->
 
@@ -164,10 +164,10 @@
 
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>  
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/bower_components/moment/min/moment.min.js"></script>
 	  <script type="text/javascript" src="/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
-	  
+
 
 
 
@@ -176,5 +176,5 @@
                 $('#datetimepicker1').datetimepicker();
             });
         </script>
-</body>	
+</body>
 </html>

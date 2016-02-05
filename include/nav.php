@@ -10,41 +10,36 @@
   				</button>
 
   				<a href="http://<?php echo $_SERVER['SERVER_NAME']?>" class="navbar-brand">Handshake</a>
-          
+
   			</div><!-- Navbar Header-->
 
   			<div class="collapse navbar-collapse" id="navbar-collapse">
-  				
+
 
   				<ul class="nav navbar-nav">
-  					<li class="dropdown">  
-              <a href="http://<?php echo $_SERVER['SERVER_NAME']."/view_meetup.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MeetUP <span class="caret"></span></a>
+  					<li class="dropdown">
+              <a href="http://<?php echo $_SERVER['SERVER_NAME']."/view_meetup.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meet &amp; Greet<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/view_meetup.php"?>">View all Meet Events</a></li>
+                  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/view_meetup.php"?>">View all Meet &amp; Greet Events</a></li>
                   <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/create_meetup.php"?>">Create Event</a></li>
-                </ul> 
+                </ul>
             </li>
-			<li class="dropdown">  
+			<li class="dropdown">
               <a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pay it Forward <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>">View all Contributions</a></li>
                   <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/index.php"?>">Post Advice</a></li>
-                </ul> 
+                </ul>
             </li>
-			  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">University Social</a> 
-			  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">Ask Questions</a> 
-				<li class="dropdown">  
+			  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">University Social</a>
+			  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">Ask Questions</a>
+				<li class="dropdown">
               <a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ADS <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Post AD</a></li>
-                </ul> 
-            </li> 
+                </ul>
+            </li>
   				</ul>
   			</div>
   		</div><!-- End Container-->
   	</nav><!-- End navbar -->
-
-
-          
-
-          
