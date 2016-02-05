@@ -18,26 +18,25 @@ $id = $_GET['id'];
 
 
 
-
-    $query = "SELECT * FROM meetup WHERE id = ?";
-
-    $stmt = $conn->prepare($query);
+// $query = "SELECT * FROM meetup ORDER BY id DESC" ;
 
 
 
-    $stmt->bind_param('i', $id);
 
 
-    $execute = $stmt->execute() or trigger_error($stmt->error.". Query: ".$query);
+    $query = "SELECT * FROM meetup WHERE id = ".$id;
 
-    $result = $stmt->get_result();
+$result = mysqli_query($conn, $query);
 
-    if ($result->num_rows != 1) {
-    	header( 'Location: event.php?error=Meetup%20not%20found' ) ;
-		die();
-    }
 
-        $row = $result->fetch_assoc();
+$row = mysqli_fetch_array($result)
+
+    // if ($ro) {
+    // 	header( 'Location: event.php?error=Meetup%20not%20found' ) ;
+		// die();
+    // }
+
+        // $row = $result->fetch_assoc();
 
     //print_r($row);
 
