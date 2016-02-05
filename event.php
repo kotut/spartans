@@ -39,7 +39,12 @@
   					<li><a href="#pay_it_forward">Pay it Forward</a> 
   					<li><a href="#university_socia">University Social</a> 
   					<li><a href="#ask_questions">Ask Questions</a> 
-  					<li><a href="#ads">ADS</a> 
+  					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ADS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Post AD</a></li>
+          </ul> 
+		  </li>
   				</ul>
   			</div>
   		</div><!-- End Container-->
