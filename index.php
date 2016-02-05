@@ -93,20 +93,20 @@
  <div class="row images" >
   <div class="col-md-4" >
     <a href="image\handshake.jpg" class="thumbnail">
-      <img src="image\handshake.jpg" alt="Event" >
-	  <span align =center> Meet and greet </span>
+      <img src="image\handshake.jpg" alt="" >
+	  <h4 align =center> Pay it Forward </h4>
     </a>
   </div>
   <div class="col-md-4" >
     <a href="image\handshake.jpg" class="thumbnail">
       <img src="image\handshake.jpg" alt="Handshake" >
-	  <span align =center> Meet and greet </span>
+	  <h4 align =center> Handshake Meet-Up</h4>
     </a>
   </div>
   <div class="col-md-4" >
     <a href="image\handshake.jpg" class="thumbnail">
       <img src="image\handshake.jpg" alt="Ads" >
-	  	 <span align =center> Meet and greet </span>
+	  	 <h4 align =center> Advertisement </h4>
     </a>
   </div>
   
@@ -117,13 +117,13 @@
   <div class="col-md-4">
     <a href="image\handshake.jpg" class="thumbnail">
       <img src="image\handshake.jpg" alt="Event" >
-	  <span align =center> Meet and greet </span>
+	  <h4 align =center> Meet and greet </h4>
     </a>
   </div>
   <div class="col-md-4">
     <a href="image\handshake.jpg" class="thumbnail">
       <img src="image\handshake.jpg" alt="Handshake" >
-	  <span align =center> Meet and greet </span>
+	  <h4 align =center> Meet and greet </h4>
     </a>
   </div>
   </div>
