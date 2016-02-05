@@ -9,8 +9,10 @@
   					<span class="icon-bar"></span>
   				</button>
 
-  				<a href="" class="navbar-brand">Handshake</a>
+  				<a href="http://<?php echo $_SERVER['SERVER_NAME']?>" class="navbar-brand">Handshake</a>
+          
   			</div><!-- Navbar Header-->
+
   			<div class="collapse navbar-collapse" id="navbar-collapse">
   				
 
