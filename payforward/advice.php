@@ -42,10 +42,10 @@ $row = mysqli_fetch_array($result);
 
 echo "<div class='container advice-list' id='adviceo'>";
     echo "<div class='col-md-1'>";
-          echo "<div id='demo' style='overflow: auto'>";
+          echo "<div id='demo' style='overflow: none'>";
             echo "<div id='demo1' class='upvote'>";
               echo "<a class='upvote'></a>";
-              echo "<span class='count'></span>";
+              echo "<span class='count'>".rand(90, 100)."</span>";
             echo "</div>";
          echo "</div>";
     echo "</div>";
@@ -61,10 +61,10 @@ while($row = mysqli_fetch_array($result)){
 
   echo "<div class='container advice-list' id='adviceo'>";
     echo "<div class='col-md-1'>";
-          echo "<div id='demo' style='overflow: auto'>";
+          echo "<div id='demo' style='overflow: none'>";
             echo "<div id='demo1' class='upvote'>";
               echo "<a class='upvote'></a>";
-              echo "<span class='count'>".rand(1, 1000)."</span>";
+              echo "<span class='count'>".rand(1, 100)."</span>";
             echo "</div>";
          echo "</div>";
     echo "</div>";
