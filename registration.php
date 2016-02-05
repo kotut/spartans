@@ -31,11 +31,17 @@
 			Echo "please fill the empty field.";
   		}
   	else {
-  			if($_POST[password]!='' && $_POST['retypepass']!='' && $_POST[password]==$_POST['retypepass']) {
+        $select = "SELECT Email FROM user_hack WHERE Email='$users_email'";
+        $row = mysqli_query($conn,$select);
+        $count = mysqli_num_rows($row);
+        if( $count > 0) {
+          echo $users_email." This email is already being used";
+        }
+  			elseif ($_POST['password']!='' && $_POST['retypepass']!='' && $_POST['password']==$_POST['retypepass']) {
   				$pass = $_POST['retypepass'];
   				$hashpass = md5($pass);
 
-  			}
+  			
   		
   		$sql = "INSERT INTO user_hack (FirstName, LastName, Major, Email, Username, Password) 
   		VALUES ('$users_fname', '$users_lname', '$users_major', '$users_email', '$users_username', '$hashpass')";
@@ -48,6 +54,7 @@
   		else {
   			Echo "There is some problem in inserting record: " . "<br>" . mysqli_error($conn);
   		}
+    }
   	}
   }
 
