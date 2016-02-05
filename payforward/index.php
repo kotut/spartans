@@ -94,7 +94,7 @@
 	}
 	
 	?>
-	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Modal</button>
+	
 	<button type="submit" class="btn btn-success btn-lg" id="preview_view">Preview</button>
 
 </form>	
