@@ -50,7 +50,6 @@
 
 <body>
  <?php include("include/nav.php"); ?>
-<div class="container">
         <div id="section">
             <div id="panel">
                 <ul class="menu">
@@ -62,6 +61,7 @@
                 </ul>
             </div>
         </div>
-        </div>
+        
+        <style>#comment-ad{display:none !important;}</style>
 </body>
 </html>
