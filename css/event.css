@@ -9,19 +9,29 @@ body{
   background:white;
   color:#ffc;
 }
+ul li a {
+font-size: 14px;
+}
 
-h2,p{
+p {
+font-size: 16px;
+color: #000;
+}
+.csswrap h2,p{
   font-size:100%;
   font-weight:normal;
 }
-ul,li{
+
+.csswrap ul,li{
   list-style:none;
 }
-ul{
+.csswrap ul{
   overflow:hidden;
   padding:3em;
 }
-ul li a{
+.csswrap ul li a{
+  font-family: cursive;
+  font-size: 12px;
   text-decoration:none;
   color:#000;
   background:#F9D448;
@@ -29,8 +39,10 @@ ul li a{
   height:20em;
   width:20em;
   padding:2em;
+  
 }
-ul li{
+.csswrap ul li{
   margin:1em;
   float:left;
 }
+
