@@ -25,10 +25,10 @@
 
             .menu{
                 width: 620px;
-                margin: 20px auto; padding: 15px;      
+                margin-top: 60px; padding: 15px;      
                 list-style: none;
                 counter-reset: li;
-                background: #eee;
+                margin-left:310px;
                 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
                 -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
                 box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
@@ -50,14 +50,12 @@
                 margin: 25px 0 0 25px;
                 color: #fff;
             }
-            #comment-rss-feed, #comment-ad{display:none;}
+            #comment-rss-feed, .fcs-link{display:none;}
 </style>
 </head>
 
 <body>
  <?php include("include/nav.php"); ?>
-        <div id="section">
-            <div id="panel">
                 <ul class="menu">
                     <script type="text/javascript" async>
                         function ajaxpath_56b4b3d62c68a(url){
@@ -65,9 +63,7 @@
                         }(function(){
                             document.write('<div id="fcs_div_56b4b3d62c68a"><a title="free comment script" href="http://www.freecommentscript.com">&nbsp;&nbsp;<b>Free HTML User Comments</b>...</a></div>');fcs_56b4b3d62c68a=document.createElement('script');fcs_56b4b3d62c68a.type="text/javascript";fcs_56b4b3d62c68a.src=ajaxpath_56b4b3d62c68a((document.location.protocol=="https:"?"https:":"http:")+"//www.freecommentscript.com/GetComments2.php?p=56b4b3d62c68a&s=&Size=10#!56b4b3d62c68a");setTimeout("document.getElementById('fcs_div_56b4b3d62c68a').appendChild(fcs_56b4b3d62c68a)",1);})();</script><noscript><div><a href="http://www.freecommentscript.com" title="free html user comment box">Free Comment Script</a></div></noscript>
                 </ul>
-            </div>
-        </div>
         
-        <style>#comment-ad{display:none !important;}</style>
+        <style>.fcs-link{display:none !important;}</style>
 </body>
 </html>
