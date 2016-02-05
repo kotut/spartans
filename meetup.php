@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-    <?php include("../include/header.php"); ?>
+    
 	<meta charset="utf-8">
 	<title>Handshake </title>
+	<?php include("../include/header.php"); ?>
 	<meta name="description" content="Handshake App">
 </head>
 
