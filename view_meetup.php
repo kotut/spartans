@@ -83,8 +83,6 @@ $id = $_GET['id'];
   				<a href="" class="navbar-brand">Handshake</a>
   			</div><!-- Navbar Header-->
   			<div class="collapse navbar-collapse" id="navbar-collapse">
-  				
-
   				<ul class="nav navbar-nav">
   					<li><a href="#meet_up">MeetUp</a> 
   					<li><a href="#pay_it_forward">Pay it Forward</a> 
@@ -181,6 +179,19 @@ while($row = mysqli_fetch_array($result)){
 <!-- Footer -->
 
     <footer>
+    
+    <style>
+    
+    .button1{
+    position:absolute;
+    bottom: 5%;
+    right:80%;
+}
+    
+    </style>
+
+<a href="create_meetup.php" class="button1 btn btn-warning navbar-btn navbar-left">Create MeetUp</a>
+
 
     </footer>
 

@@ -1,22 +1,12 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+include("include/db.php"); 
+
 	session_start();
-	$server = "localhost";
-	$db_username = "root";
-	$db_password = "root";
-	$database = "HackU";
-
-	// Create connection
-	$conn = mysqli_connect($server, $db_username, $db_password, $database);
-	if (!$conn) {
-		die("Connection failed: " . mysqli_connect_error());
-	}
-
-	// Check connection
-	if ($conn->connect_error) {
-    	die("Connection failed: " . $conn->connect_error);
-	} 
-	echo "Connected successfully";
-
+	
 	$users_email = $_POST['email-user'];
   	$users_password = $_POST['password'];
 
@@ -30,13 +20,16 @@
   			$hashpass = md5($pass);
   			$users = $_POST['email-user'];
 
-  			$sql = "SELECT * FROM user_hack WHERE (Username='$users' or Email='$users') and Password='$hashpass'";
+  			$sql = "SELECT * FROM user_hacku WHERE (Username='$users' or Email='$users') and Password='$hashpass'";
   			$result = mysqli_query($conn,$sql);
-      
-      		$count = mysqli_num_rows($result);
+      		$count = $result->num_rows;
 
       		if($count == 1) {
-         		session_register("users");
+         		//session_register("users");
+         		$_SESSION['user'] = $result->fetch_assoc();
+         		
+         		header("Location: /");
+         		exit;
          	
   			}
   		else{
