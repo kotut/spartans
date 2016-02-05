@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <?php include("../include/header.php"); ?>
 	<meta charset="utf-8">
 	<title>Handshake </title>
 	<meta name="description" content="Handshake App">
@@ -20,6 +21,7 @@
 	</style>
 
 <body data-spy="scroll" data-target="#my-navbar">
+<?php include("../include/header.php"); ?>
 
   <!-- Navbar -->
   	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
@@ -94,7 +96,7 @@
 		  <div class="form-group">
 			<label for="event_name" class="col-lg-2 control-label">Event Name</label>
 			<div class="col-lg-10">
-			  <input type="text" class="form-control" id="user-name" placeholder="Event Name">
+			  <input type="text" class="form-control" id="eventname" placeholder="Event Name">
 			</div>
 		  </div><!-- End form group -->
 
@@ -155,7 +157,7 @@
 		   <div class="form-group">
 			<label for="event_name" class="col-lg-2 control-label">Location</label>
 			<div class="col-lg-10">
-			  <input type="text" class="form-control" id="user-name" placeholder="Location">
+			  <input type="text" class="form-control" id="location" placeholder="Location">
 			</div>
 		  </div><!-- End form group -->
 		  
@@ -279,7 +281,7 @@
 			</select>
 				:
 				<select>
-						 <option value="00">00</option>
+			 <option value="00">00</option>
              <option value="01">01</option>
              <option value="02">02</option>
 			 <option value="03">03</option>
@@ -360,7 +362,7 @@
 		  <div class="form-group">
 			<label for="event_name" class="col-lg-2 control-label">Spaces</label>
 			<div class="col-lg-10">
-			  <input type="text" class="form-control" id="user-name" placeholder="Available Spaces">
+			  <input type="text" class="form-control" id="space" placeholder="Available Spaces">
 			</div>
 		  </div><!-- End form group --> 
 		  
@@ -370,7 +372,6 @@
 			<label for="event_name" class="col-lg-2 control-label">Availability</label>
 		<select>
              <option value="Am">Closed</option>
-             <option value="Pm">Open</option>
              <option value="Pm">Public</option>
 			</select>
 		  </div><!-- End form group -->
@@ -380,20 +381,33 @@
 		  <div class="form-group">
 			<label for="event_description" class="col-lg-2 control-label">Description</label>
 			<div class="col-lg-10">
-			  <textarea name="user-message" id="user-message" class="form-control" 
+			  <textarea name="user-message" id="eventdescription" class="form-control" 
 			  cols="20" rows="10" placeholder="Enter your Description..."></textarea>
 			</div>
 		  </div><!-- End form group -->
 
 
 
-		  <div class="form-group">
-			<div class="col-lg-10 col-lg-offset-2">
-			  <button type="submit" class="btn btn-primary">Submit</button>
-			</div>
-		  </div>
+		
 
-		 
+		 	<?php
+
+	if($_POST['submit'] && $_POST['submit'] != 0)
+	{
+		$eventname=$_POST['eventname'];
+		$location=$_POST['location'];
+		$space=$_POST['space'];
+		$eventdescription=$_POST['eventdescription'];
+	}
+	
+	?>
+
+	 <div class="form-group">
+		<div class="col-lg-10 col-lg-offset-2">
+		  <button type="submit" class="btn btn-success btn-lg">Submit</button>
+		</div>
+	  </div>
+		  
 
 		</form>
 	  </div>
