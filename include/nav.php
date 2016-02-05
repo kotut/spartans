@@ -21,7 +21,7 @@
   					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/"?>">Pay it Forward</a> 
   					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">University Social</a> 
   					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">Ask Questions</a> 
-  					<li><a href="#ads">ADS</a> 
+  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">ADS</a> 
   				</ul>
   			</div>
   		</div><!-- End Container-->
