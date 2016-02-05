@@ -84,12 +84,13 @@ while($row = mysqli_fetch_array($result)){
 <div class="footer"></div>
 
 <!-- JAVASCRIPT -->
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>  
     <script src="js/jquery-2.0.2.min.js"></script>
     <script src="lib/jquery.upvote.js"></script>
     <script src="lib/qunit-1.11.0.js"></script>
     <script src="lib/vote.js"></script>
-
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>  
 </body>
 </html>
