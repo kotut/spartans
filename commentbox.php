@@ -28,7 +28,7 @@
                 margin-top: 60px; padding: 15px;      
                 list-style: none;
                 counter-reset: li;
-                
+                margin-left:310px;
                 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
                 -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
                 box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
