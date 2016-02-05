@@ -17,12 +17,32 @@
   				
 
   				<ul class="nav navbar-nav">
-  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/meetup.php"?>">MeetUp</a> 
-  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/"?>">Pay it Forward</a> 
-  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">University Social</a> 
-  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">Ask Questions</a> 
-  					<li><a href="#ads">ADS</a> 
+  					<li class="dropdown">  
+              <a href="http://<?php echo $_SERVER['SERVER_NAME']."/meetup.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MeetUP <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Create Event</a></li>
+                </ul> 
+            </li>
+			<li class="dropdown">  
+              <a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pay it Forward <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Post Advice</a></li>
+                </ul> 
+            </li>
+			  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">University Social</a> 
+			  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">Ask Questions</a> 
+				<li class="dropdown">  
+              <a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ADS <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Post AD</a></li>
+                </ul> 
+            </li> 
   				</ul>
   			</div>
   		</div><!-- End Container-->
   	</nav><!-- End navbar -->
+
+
+          
+
+          

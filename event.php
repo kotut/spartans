@@ -4,43 +4,14 @@
     <meta charset="utf-8">
     <title>Basic Bootstrap Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php include("../include/header.php"); ?>
+    <?php include("include/header.php"); ?>
 
 </head>
 
 <body>
- <!-- Navbar -->
-  	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
-  		<div class="container">
-  			<div class="navbar-header">
-  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  				</button>
 
-  				<a href="" class="navbar-brand">Handshake</a>
-  			</div><!-- Navbar Header-->
-  			<div class="collapse navbar-collapse" id="navbar-collapse">
-  				
+<?php include("include/nav.php"); ?>
 
-  				<ul class="nav navbar-nav">
-				
-  					<li class="dropdown">  
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MeetUP <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Create Event</a></li>
-          </ul> 
-		  </li>
-  					<li><a href="#pay_it_forward">Pay it Forward</a> 
-  					<li><a href="#university_socia">University Social</a> 
-  					<li><a href="#ask_questions">Ask Questions</a> 
-  					<li><a href="#ads">ADS</a> 
-  				</ul>
-  			</div>
-  		</div><!-- End Container-->
-  	</nav><!-- End navbar -->
 <div class="csswrap">
 	<div class="col-md-9">
 		<ul>
