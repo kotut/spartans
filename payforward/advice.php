@@ -42,11 +42,12 @@ echo "<div class='row'>";
 echo "<p>" . $row['title'] . "</p> <p>" . $row['advice'] . "</p>";
 echo "</div>";
 while($row = mysqli_fetch_array($result)){
-	echo "<div class='container advice-list'>";
+
+  echo "<div class='container advice-list'>";
     echo "<div class='row'><h4 class='advice-list'>" . $row['title'] . "</h4></div>";
     echo "<div class='row'><p class='advice-list'>" . $row['advice'] . "</p></div>";
     echo "<div class='row'><p class='advice-list'><strong>Posted By: </strong>" . $row['name'] . ", " . $row['role'] . ", " . $row['affiliation'] . ", Class of " . $row['year'] . "</p></div>";
-    echo "</div>";
+  echo "</div>";
  }
  echo "</div>";
 
