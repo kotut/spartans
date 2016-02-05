@@ -9,6 +9,8 @@
       .modal-open .modal,.btn:focus{
       outline:none!important;
       .thumbnail{min-height:200px;}
+      .jumbotron h1 {font-size: 78px; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+      .jumbotron p { font-size: 32px; }
       }
      </style>       
 </head>
@@ -16,7 +18,7 @@
 	
 <?php session_start(); ?>
 <?php if(!isset($_SESSION['user'])) : ?>
-	<div class="container" style="margin-left:-15px; background-color:#eee;">
+	<div class="container" style="background-color:#eee;">
 
 			<div style="float:right;width:100px;"> 
 				<a href="#LogModal" data-toggle="modal" class="btn" align=right> Login </a>
