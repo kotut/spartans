@@ -23,10 +23,20 @@
                   <li><a href="#">Create Event</a></li>
                 </ul> 
             </li>
-  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>">Pay it Forward</a> 
-  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">University Social</a> 
-  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">Ask Questions</a> 
-  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">ADS</a> 
+			<li class="dropdown">  
+              <a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pay it Forward <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Post Advice</a></li>
+                </ul> 
+            </li>
+			  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">University Social</a> 
+			  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">Ask Questions</a> 
+				<li class="dropdown">  
+              <a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ADS <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Post AD</a></li>
+                </ul> 
+            </li> 
   				</ul>
   			</div>
   		</div><!-- End Container-->
@@ -35,19 +45,4 @@
 
           
 
-          <ul class="nav navbar-nav">
-        
-            <li class="dropdown">  
-              <a href="http://<?php echo $_SERVER['SERVER_NAME']."/meetup.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MeetUP <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Create Event</a></li>
-                </ul> 
-            </li>
-            <li><a href="#pay_it_forward">Pay it Forward</a> 
-            <li><a href="#university_socia">University Social</a> 
-            <li><a href="#ask_questions">Ask Questions</a> 
-            <li><a href="#ads">ADS</a> 
-          </ul>
-        </div>
-      </div><!-- End Container-->
-    </nav><!-- End navbar -->
+          
