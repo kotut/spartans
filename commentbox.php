@@ -56,8 +56,6 @@
 
 <body>
  <?php include("include/nav.php"); ?>
-        <div id="section">
-            <div id="panel">
                 <ul class="menu">
                     <script type="text/javascript" async>
                         function ajaxpath_56b4b3d62c68a(url){
@@ -65,8 +63,6 @@
                         }(function(){
                             document.write('<div id="fcs_div_56b4b3d62c68a"><a title="free comment script" href="http://www.freecommentscript.com">&nbsp;&nbsp;<b>Free HTML User Comments</b>...</a></div>');fcs_56b4b3d62c68a=document.createElement('script');fcs_56b4b3d62c68a.type="text/javascript";fcs_56b4b3d62c68a.src=ajaxpath_56b4b3d62c68a((document.location.protocol=="https:"?"https:":"http:")+"//www.freecommentscript.com/GetComments2.php?p=56b4b3d62c68a&s=&Size=10#!56b4b3d62c68a");setTimeout("document.getElementById('fcs_div_56b4b3d62c68a').appendChild(fcs_56b4b3d62c68a)",1);})();</script><noscript><div><a href="http://www.freecommentscript.com" title="free html user comment box">Free Comment Script</a></div></noscript>
                 </ul>
-            </div>
-        </div>
         
         <style>#comment-ad{display:none !important;}</style>
 </body>
