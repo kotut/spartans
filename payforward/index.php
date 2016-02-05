@@ -37,9 +37,9 @@
 			<p> <label for "role"> Role:  </label> 
 			<select name="role">
 				<option value="roles"> Select role </option>
-				<option value="current"> Current Student </option>
-				<option value="alumni"> Alumni </option>
-				<option value="citizen"> Concerned Citizen </option>
+				<option value="Current Student"> Current Student </option>
+				<option value="Alumni"> Alumni </option>
+				<option value="Concerned Citizen"> Concerned Citizen </option>
 			</select>	
 		</div>
 
@@ -52,10 +52,10 @@
 
 				<select name="affiliation">
 					<option value="affiliations"> Select Affiliation </option>
-					<option value="norfolk"> Norfolk State</option>
-					<option value="odu"> Old Dominion</option>
-					<option value="tcc"> Tidewater CC </option>
-					<option value="other"> Other </option>
+					<option value="Norfolk State"> Norfolk State</option>
+					<option value="Old Dominion"> Old Dominion</option>
+					<option value="Tidewater CC"> Tidewater CC </option>
+					<option value="Other"> Other </option>
 				</select>	
 
 			</p>
@@ -69,10 +69,10 @@
 			<p> <label for "category"> Category: </label> 
 				<select name="category">
 					<option value="categories"> Categories </option>
-					<option value="general"> General Advice</option>
-					<option value="academic"> Academic</option>
-					<option value="health"> Health </option>
-					<option value="lifestyle"> Lifestyle </option>
+					<option value="General Advice"> General Advice</option>
+					<option value="Academic"> Academic</option>
+					<option value="Health"> Health </option>
+					<option value="Lifestyle"> Lifestyle </option>
 				</select>
 			</p>
 		</div>
