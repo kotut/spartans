@@ -39,10 +39,10 @@ $id = $_GET['id'];
     
         $row = $result->fetch_assoc();
     
-    print_r($row);
+    //print_r($row);
 
 
- //<?php echo $row['eventname']; ?>
+ /*<?php echo $row['eventname']; ?> */
 ?>
 
 
@@ -134,111 +134,47 @@ $id = $_GET['id'];
       <div class="page-header" id="contact">
           <h2><?php echo $row['eventname']; ?></h2>
       </div><!-- End Page Header -->
-      
-      
-          
-      <div class="col-lg-8">
-		<form action="meetup_con.php" method='post' class="form-horizontal">
-		  <div class="form-group">
-			<label for="event_name" class="col-lg-2 control-label">Event Name</label>
-			<div class="col-lg-10">
-			  <input name="eventname" type="text" class="form-control" id="eventname" placeholder="Event Name">
-			</div>
-		  </div><!-- End form group -->
+
+     
+     
 
 
+       <ul class="list-inline">
+          <li><?php echo $row['eventname']; ?></li>
+          <li><?php echo $row['location']; ?></li>
+          <li><?php echo $row['space']; ?></li>
+          <li><?php echo $row['eventdescription']; ?></li>
+          <li><?php echo $row['location']; ?></li>
+          <li><?php echo $row['startdate']; ?></li>
+        </ul>
+<!--
+<?php
 
+$query = "SELECT * FROM payforward ORDER BY uid DESC" ;
 
-		  <div class="form-group">
-			<label for="event_time" class="col-lg-2 control-label">Date Time</label><br>
-				<div class='input-group date' id='datetimepicker1' >
-                    <input type='text' class="form-control" name='datetimepicker1'/>
-                    <span class="input-group-addon">
-                        <span class="glyphicon glyphicon-calendar"></span>
-                    </span>
-                </div>
-		  </div><!-- End form group -->
+$result = mysqli_query($conn, $query);
 
-		   <div class="form-group">
-			<label for="event_name" class="col-lg-2 control-label">Location</label>
-			<div class="col-lg-10">
-			  <input type="text" class="form-control" id="location" name="location" placeholder="Location">
-			</div>
-		  </div><!-- End form group -->
-		  
-		  
-		  
+$row = mysqli_fetch_array($result);
 
+echo "<div class='container advice-list'>";
+    echo "<div class='row'><h4 class='advice-list'>" . $row['title'] . "</h4></div>";
+    echo "<div class='row'><p class='advice-list'>" . $row['advice'] . "</p></div>";
+    echo "<div class='row'><p class='advice-list'><strong>Posted By: </strong>" . $row['name'] . ", " . $row['role'] . ", " . $row['affiliation'] . ", Class of " . $row['year'] . "</p></div>";
+echo "</div>";
 
-		  
-		  
+while($row = mysqli_fetch_array($result)){
 
-		  
-		  
-		  
-		  
-		  
+  echo "<div class='container advice-list'>";
+    echo "<div class='row'><h4 class='advice-list'>" . $row['title'] . "</h4></div>";
+    echo "<div class='row'><p class='advice-list'>" . $row['advice'] . "</p></div>";
+    echo "<div class='row'><p class='advice-list'><strong>Posted By: </strong>" . $row['name'] . ", " . $row['role'] . ", " . $row['affiliation'] . ", Class of " . $row['year'] . "</p></div>";
+  echo "</div>";
+ }
+ echo "</div>";
 
-		  
-		  
-		  
-		  
-		  
+?>
 
-		  
-		  
-		  <div class="form-group">
-			<label for="event_name" class="col-lg-2 control-label">Spaces</label>
-			<div class="col-lg-10">
-			  <input name="space" type="text" class="form-control" id="space" id="name" placeholder="Available Spaces">
-			</div>
-		  </div><!-- End form group --> 
-		  
-		  
-		  
-		  <div class="form-group">
-			<label for="event_name" class="col-lg-2 control-label">Availability</label>
-		<select>
-             <option value="Am">Closed</option>
-             <option value="Pm">Public</option>
-			</select>
-		  </div><!-- End form group -->
-		  
-
-
-		  <div class="form-group">
-			<label for="event_description" class="col-lg-2 control-label">Description</label>
-			<div class="col-lg-10">
-			  <textarea id="eventdescription" name="eventdescription" class="form-control" 
-			  cols="20" rows="10" placeholder="Enter your Description..."></textarea>
-			</div>
-		  </div><!-- End form group -->
-
-
-
-		
-
-
-
-	 <div class="form-group">
-		<div class="col-lg-10 col-lg-offset-2">
-		  <button type="submit" class="btn btn-success btn-lg">Submit</button>
-		</div>
-	  </div>
-		  
-		  
-		  
-
-		</form>
-	  </div>
-	</div><!-- End the row -->
-
-
-
-
-
-
-
+-->
 
   
 
