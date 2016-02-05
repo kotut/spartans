@@ -20,7 +20,8 @@
   					<li class="dropdown">  
               <a href="http://<?php echo $_SERVER['SERVER_NAME']."/view_meetup.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MeetUP <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Create Event</a></li>
+                  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/view_meetup.php"?>">View all Meet Events</a></li>
+                  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/create_meetup.php"?>">Create Event</a></li>
                 </ul> 
             </li>
 			<li class="dropdown">  
