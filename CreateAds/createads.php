@@ -5,7 +5,12 @@
 	<meta charset="utf-8">
 	<title>Handshake </title>
 	<meta name="description" content="Handshake App">
-	<?php include("../include/header.php"); ?>
+	<!-- Latest compiled and minified CSS -->
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 </head>
 
 	<style>
@@ -80,63 +85,57 @@
       
           
       <div class="col-lg-8">
-	  <form action="create.php" method="post">
+	  <form action="insert.php" method="post">
 		<form action="" class="form-horizontal">
 		  <div class="form-group">
 			<label for="event_name" class="col-lg-2 control-label">Name</label>
 			<div class="col-lg-10">
-			  <input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+			  <input type="text" class="form-control" name="Name" id="user-name" placeholder="Enter your name">
 			</div>
 		  </div><!-- End form group -->
 
 		  <div class="form-group">
-		  <form action="create.php" method="post">
+		  <form action="insert.php" method="post">
 			<label for="event_description" class="col-lg-2 control-label">Description</label>
 			<div class="col-lg-10">
-			  <textarea name="user-message" id="user-message" class="form-control" 
-			  cols="20" rows="10" placeholder="Enter your product description"></textarea>
+			  <textarea  name="Description" id="user-message" class="form-control 
+			   cols="20" rows="10"  placeholder="Enter your product description"></textarea>
 			</div>
 		  </div><!-- End form group -->
 
 
 		   <div class="form-group">
-		   <form action="create.php" method="post">
+		   <form action="insert.php" method="post">
 			<label for="event_name" class="col-lg-2 control-label">Product</label>
 			<div class="col-lg-10">
-			  <input type="text" class="form-control" id="user-name" placeholder="Enter you product">
+			  <input type="text" class="form-control" name="Product" id="user-name" placeholder="Enter you product">
 			</div>
 		  </div><!-- End form group -->
 		  
 		  <div class="form-group">
-		   <form action="create.php" method="post">
+		   <form action="insert.php" method="post">
 			<label for="event_name" class="col-lg-2 control-label">Contact</label>
 			<div class="col-lg-10">
-			  <input type="text" class="form-control" id="user-name" placeholder="Enter you contact details">
+			  <input type="text" class="form-control" name="Contact" id="user-name" placeholder="Enter you contact details">
 			</div>
 		  </div><!-- End form group -->
 		  
 		 
 		  
-		
-     
-
-
-		
-
-   
+      
     
         <div class="input-group">
-		<form action="create.php" method="post">
+		<form action="insert.php" method="post">
         <div class="input-group-addon">$</div>
 
-        <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+        <input type="text" class="form-control" name= "Amount" id="exampleInputAmount" placeholder="Amount">
         <div class="input-group-addon">.00</div>
     </div> 
     <div class="form-group">
-	<form action="create.php" method="post">
+	<form action="insert.php" method="post">
         <label for="exampleInputEmail1">Expiry Date</label>
 
-        <input type="date" class="form-control" placeholder="Text input">
+        <input type="date" class="form-control" name="Expiry" placeholder="Text input">
     </div>
 		  
 		  
