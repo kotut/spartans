@@ -81,7 +81,7 @@ $row = mysqli_fetch_array($result)
 
   	<div class="jumbotron">
   		<div class="container text-center">
-  			<h1>MEETUP </h1>
+  			<h1><?php echo $row['eventname']; ?></h1>
 
   		</div><!-- End container -->
   	</div>
@@ -114,7 +114,6 @@ $row = mysqli_fetch_array($result)
 
 
        <ul class="list">
-          <li>Event Name: <?php echo $row['eventname']; ?><br/></li>
           <li>Location: <?php echo $row['location']; ?><br/></li>
           <li>Space Available: <?php echo $row['space']; ?><br/></li>
           <li>Description: <?php echo $row['eventdescription']; ?><br/></li>
