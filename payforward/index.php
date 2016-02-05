@@ -8,7 +8,7 @@
 
 <body data-spy="scroll" data-target="#my-navbar">
 
- <?php include("include/menu.php"); ?>
+ 	<?php include("../include/nav.php"); ?>
 
   	<!-- jumbotron-->
 
@@ -44,7 +44,7 @@
 		</div>
 
 		<div class="col-md-3"> 
-			<p> <label for "year"> Year: </label> <input type="number" min="1930" max="<?php echo date("Y"); ?>" name="year" value="" required /> </p>
+			<p> <label for "year"> Class of: </label> <input type="number" min="1930" max="2030" name="year" value="" required /> </p>
 		</div>
 		
 		<div class="col-md-3"> 
@@ -119,7 +119,7 @@
 				<span id="preview_name"></span>,  
 				<span id="preview_role"></span>, 
 				<span id="preview_affiliation"></span>,  
-				<span id="preview_year"></span> 
+				<strong><><span id="preview_year"></span> 
 			</p>
 
 			<p><strong>Tags: </strong>
@@ -138,8 +138,8 @@
 </div>
 
 <!-- JAVASCRIPT -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>  
 <script>
 	$(document).ready(function(){
 		$('#preview_view').click(function(){

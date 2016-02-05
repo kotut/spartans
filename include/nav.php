@@ -9,17 +9,19 @@
   					<span class="icon-bar"></span>
   				</button>
 
-  				<a href="" class="navbar-brand">Handshake</a>
+  				<a href="http://<?php echo $_SERVER['SERVER_NAME']?>" class="navbar-brand">Handshake</a>
+          
   			</div><!-- Navbar Header-->
+
   			<div class="collapse navbar-collapse" id="navbar-collapse">
   				
 
   				<ul class="nav navbar-nav">
-  					<li><a href="#meet_up">MeetUp</a> 
-  					<li><a href="#pay_it_forward">Pay it Forward</a> 
-  					<li><a href="#university_socia">University Social</a> 
-  					<li><a href="#ask_questions">Ask Questions</a> 
-  					<li><a href="#ads">ADS</a> 
+  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/meetup.php"?>">MeetUp</a> 
+  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/"?>">Pay it Forward</a> 
+  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">University Social</a> 
+  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">Ask Questions</a> 
+  					<li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/#"?>">ADS</a> 
   				</ul>
   			</div>
   		</div><!-- End Container-->

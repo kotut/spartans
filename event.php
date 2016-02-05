@@ -4,29 +4,13 @@
     <meta charset="utf-8">
     <title>Basic Bootstrap Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!--  Optional Bootstrap theme -->
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet"> 
-		<link rel="stylesheet" type="text/css" href="css/event.css">
+    <?php include("include/header.php"); ?>
 
 </head>
 
 <body>
- <!-- Navbar -->
-  	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
-  		<div class="container">
-  			<div class="navbar-header">
-  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  				</button>
 
-  				<a href="" class="navbar-brand">Handshake</a>
-  			</div><!-- Navbar Header-->
-  			<div class="collapse navbar-collapse" id="navbar-collapse">
-  				
+<?php include("include/nav.php"); ?>
 
   				<ul class="nav navbar-nav">
 				
