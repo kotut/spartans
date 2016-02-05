@@ -7,21 +7,7 @@ include("../include/db.php");
 
     $query = "SELECT * FROM ads";
 
-    $stmt = $conn->prepare($query);
-
-
-    $execute = $stmt->execute() or trigger_error($stmt->error.". Query: ".$query);
-
-    $result = $stmt->get_result();
-    //$row = mysqli_fetch_array($result);
-    //var_dump($row);
-
-        //$row = $result->fetch_assoc();
-
-    //print_r($row);
-
-
- /*<?php echo $row['eventname']; ?> */
+    $result = mysqli_query($conn, $query);
 ?>
 
 
@@ -63,7 +49,7 @@ include("../include/db.php");
   			</div><!-- Navbar Header-->
   			<div class="collapse navbar-collapse" id="navbar-collapse">
   				<ul class="nav navbar-nav">
-  					<li><a href="#meet_up">Meet &amp; Greet</a> 
+  					<li><a href="#meet_up">Meet &amp; Greet</a>
   					<li><a href="#pay_it_forward">Pay it Forward</a>
   					<li><a href="#university_socia">University Social</a>
   					<li><a href="#ask_questions">Ask Questions</a>
@@ -132,35 +118,6 @@ include("../include/db.php");
 
  <?php } ?>
 
-
-<!--
-<?php
-
-$query = "SELECT * FROM payforward ORDER BY uid DESC" ;
-
-$result = mysqli_query($conn, $query);
-
-$row = mysqli_fetch_array($result);
-
-echo "<div class='container advice-list'>";
-    echo "<div class='row'><h4 class='advice-list'>" . $row['title'] . "</h4></div>";
-    echo "<div class='row'><p class='advice-list'>" . $row['advice'] . "</p></div>";
-    echo "<div class='row'><p class='advice-list'><strong>Posted By: </strong>" . $row['name'] . ", " . $row['role'] . ", " . $row['affiliation'] . ", Class of " . $row['year'] . "</p></div>";
-echo "</div>";
-
-while($row = mysqli_fetch_array($result)){
-
-  echo "<div class='container advice-list'>";
-    echo "<div class='row'><h4 class='advice-list'>" . $row['title'] . "</h4></div>";
-    echo "<div class='row'><p class='advice-list'>" . $row['advice'] . "</p></div>";
-    echo "<div class='row'><p class='advice-list'><strong>Posted By: </strong>" . $row['name'] . ", " . $row['role'] . ", " . $row['affiliation'] . ", Class of " . $row['year'] . "</p></div>";
-  echo "</div>";
- }
- echo "</div>";
-
-?>
-
--->
 
 
 
