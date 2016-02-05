@@ -114,12 +114,12 @@ $row = mysqli_fetch_array($result)
 
 
        <ul class="list-inline">
-          <li><?php echo $row['eventname']; ?></li>
-          <li><?php echo $row['location']; ?></li>
-          <li><?php echo $row['space']; ?></li>
-          <li><?php echo $row['eventdescription']; ?></li>
-          <li><?php echo $row['location']; ?></li>
-          <li><?php echo $row['startdate']; ?></li>
+          <li>Event Name: <?php echo $row['eventname']; ?><br/></li>
+          <li>Location: <?php echo $row['location']; ?><br/></li>
+          <li>Space Available: <?php echo $row['space']; ?><br/></li>
+          <li>Description: <?php echo $row['eventdescription']; ?><br/></li>
+          <li>Location: <?php echo $row['location']; ?><br/></li>
+          <li>Date/Time: <?php echo $row['startdate']; ?><br/></li>
         </ul>
 
 
