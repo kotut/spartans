@@ -113,7 +113,7 @@ $row = mysqli_fetch_array($result)
 
 
 
-       <ul class="list-inline">
+       <ul class="list">
           <li>Event Name: <?php echo $row['eventname']; ?><br/></li>
           <li>Location: <?php echo $row['location']; ?><br/></li>
           <li>Space Available: <?php echo $row['space']; ?><br/></li>
