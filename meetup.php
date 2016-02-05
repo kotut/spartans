@@ -4,7 +4,7 @@
 <head>
 <?php include("include/header.php"); ?>
 	<title>Handshake </title>
-	<?php include("../include/header.php"); ?>
+	<?php include("include/header.php"); ?>
 	<meta name="description" content="Handshake App">
 </head>
 	<style>
