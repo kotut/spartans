@@ -92,7 +92,7 @@
 	<div class="container images" style="marigin: auto;">
  <div class="row images" >
   <div class="col-md-4" >
-    <a href="/payitforward/advice.php" class="thumbnail">
+    <a href="/payforward/advice.php" class="thumbnail">
       <img src="image/handshake.jpg" alt=" " >
 	  <h4 align =center> Pay it Forward </h4>
     </a>
