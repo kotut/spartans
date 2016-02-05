@@ -41,8 +41,7 @@ $row = mysqli_fetch_array($result);
 
 echo "<div class='container advice-list' id='adviceo'>";
     echo "<div id='col-md-1'>";
-      echo "<div class='vot_plus' id='vt_adviceo' >";
-      echo "</div>";
+      echo "<div class='vot_plus' id='vt_adviceo' ></div>";
     echo "</div>";
     
     echo "<div id='col-md-11'>";
@@ -56,8 +55,7 @@ while($row = mysqli_fetch_array($result)){
 
   echo "<div class='container advice-list' id='adviceo'>";
     echo "<div id='col-md-1'>";
-        echo "<div class='vot_plus' id='vt_adviceo' >";
-        echo "</div>";
+        echo "<div class='vot_plus' id='vt_adviceo' ></div>";
     echo "</div>";
     
     echo "<div id='col-md-11'>";
