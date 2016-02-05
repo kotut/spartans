@@ -10,18 +10,18 @@
       outline:none!important;
       .thumbnail{min-height:200px;}
       }
-     </style>
+     </style>       
 </head>
 <body id="bootstrap-overrides">
-
+	
 <?php session_start(); ?>
 <?php if(!isset($_SESSION['user'])) : ?>
 	<div class="container">
 		<div class="jumbotron">
-			<div style="float:right;width:100px;">
+			<div style="float:right;width:100px;"> 
 				<a href="#LogModal" data-toggle="modal" class="btn" align=right> Login </a>
 			</div>
-			<div style="float:right;width:60px;">
+			<div style="float:right;width:60px;"> 
 				<a href="#RegModal" data-toggle="modal" class="btn" align= right> Register </a>
 			</div>
 		</div>
@@ -41,20 +41,20 @@
   				<a href="" class="navbar-brand">Handshake</a>
   			</div><!-- Navbar Header-->
   			<div class="collapse navbar-collapse" id="navbar-collapse">
-
+  				
 
   				<ul class="nav navbar-nav">
-  					<li><a href="#meet_up">Meet &amp; Greet</a>
-  					<li><a href="#pay_it_forward">Pay it Forward</a>
-  					<li><a href="#university_socia">University Social</a>
-  					<li><a href="#ask_questions">Ask Questions</a>
-  					<li><a href="#ads">ADS</a>
+  					<li><a href="#meet_up">MeetUp</a> 
+  					<li><a href="#pay_it_forward">Pay it Forward</a> 
+  					<li><a href="#university_socia">University Social</a> 
+  					<li><a href="#ask_questions">Ask Questions</a> 
+  					<li><a href="#ads">ADS</a> 
   				</ul>
   			</div>
   		</div><!-- End Container-->
   	</nav><!-- End navbar -->
 <?php endif; ?>
-
+	
    <div class="modal fade" id="RegModal" role="dialog">
       <div class="modal-dialog">
         <!-- Modal content-->
@@ -86,14 +86,14 @@
                 </div>
               </div>
             </form>
-          </div>
+          </div>            
         </div>
       </div>
     </div>
 
     <div class="modal fade" id="LogModal" role="dialog">
        <div class="modal-dialog">
-
+    
             <!-- Modal content-->
                 <div class="modal-content">
                     <div class="modal-header">
@@ -115,14 +115,14 @@
                             </div>
                         </form>
                     </div>
-
+                    
                 </div>
-
+      
             </div>
     </div>
 
-    <div class="container jumbotron">
-        <div class="row" style="text-align:center; color:white">
+    <div class="container jumbotron" style="background-color:transparent;">
+        <div class="row" style="text-align:center; color:white"> 
             <h1>HANDSHAKE</h1>
             <p><strong>Where nobody is a stranger.</strong></p>
         </div>
@@ -139,7 +139,7 @@
   <div class="col-md-4" >
     <a href="event.php" class="thumbnail">
       <img src="image/handshake.jpg" alt=" " >
-	  <h4 align =center> Handshake Meet &amp; Greet</h4>
+	  <h4 align =center> Handshake Meet-Up</h4>
     </a>
   </div>
   <div class="col-md-4">
@@ -148,7 +148,7 @@
 	  	 <h4 align =center> Advertisements </h4>
     </a>
   </div>
-
+  
 </div>
 </div>
 
@@ -157,3 +157,4 @@
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
