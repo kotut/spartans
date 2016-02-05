@@ -26,6 +26,7 @@
 			<li class="dropdown">  
               <a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pay it Forward <span class="caret"></span></a>
                 <ul class="dropdown-menu">
+                  <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/advice.php"?>">View all Contributions</a></li>
                   <li><a href="http://<?php echo $_SERVER['SERVER_NAME']."/payforward/index.php"?>">Post Advice</a></li>
                 </ul> 
             </li>
