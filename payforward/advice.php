@@ -31,6 +31,7 @@ error_reporting(E_ALL);
   	<!-- End jumbotron-->
 
 <div class="container">
+<div class="row"> <h6><a href="index.php">Add your own voice</a></h6></div>
 
 <?php
 
